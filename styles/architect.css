@@ -22,6 +22,11 @@ img {
   width: 75%;
   margin: 0 auto;
 }
+.section-title {
+  color: var(--Dark-01);
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
 .section-description {
   color: var(--Dark-03);
   font-size: 1rem;
@@ -83,6 +88,44 @@ nav > h3 {
 #banner-content .primary-btn {
   margin-bottom: 50px;
 }
+#banner-content img {
+  width: 100%;
+}
+
+/* Main section - features banner */
+#features {
+  margin: 85px auto 130px;
+}
+.features-banner {
+  display: flex;
+  gap: 70px;
+  justify-content: space-around;
+}
+.feature-banner-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.feature-banner-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 537px;
+}
+.feature-banner-cta > .section-title > span:nth-child(1) {
+  color: var(--Dark-03);
+  font-weight: 500;
+}
+.feature-banner-cta > .section-title > span:nth-child(2) {
+  color: #ff900e;
+}
+.feature-banner-cta > .section-title {
+  margin-bottom: 24px;
+}
+.feature-banner-cta > .section-description {
+  margin-bottom: 32px;
+}
+
 /*! responsive styles */
 @media (max-width: 640px) {
   .container {
