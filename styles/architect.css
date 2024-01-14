@@ -145,10 +145,18 @@ nav > h3 {
   }
 }
 @media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
   .feature-banner-cta {
     max-width: 300px;
   }
   .features-banner {
     gap: 35px;
+  }
+  .feature-banner-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 24px;
   }
 }
