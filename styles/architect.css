@@ -86,7 +86,7 @@ nav > h3 {
 /*! responsive styles */
 @media (max-width: 640px) {
   .container {
-    width: 100%;
+    width: 95%;
   }
   header nav {
     flex-direction: column;
