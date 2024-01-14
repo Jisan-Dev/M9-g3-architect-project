@@ -138,6 +138,17 @@ nav > h3 {
     height: 300px;
     object-fit: cover;
   }
+
+  .features-banner {
+    gap: 70px;
+    flex-direction: column;
+  }
 }
-/* @media (max-width: 1024px) {
-} */
+@media (max-width: 1024px) {
+  .feature-banner-cta {
+    max-width: 300px;
+  }
+  .features-banner {
+    gap: 30px;
+  }
+}
