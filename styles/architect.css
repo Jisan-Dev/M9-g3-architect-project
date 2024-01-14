@@ -100,11 +100,13 @@ nav > h3 {
   display: flex;
   gap: 70px;
   justify-content: space-around;
+  padding: 0 60px;
 }
 .feature-banner-img-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  min-width: 50%;
 }
 .feature-banner-cta {
   display: flex;
@@ -152,7 +154,8 @@ nav > h3 {
     max-width: 300px;
   }
   .features-banner {
-    gap: 35px;
+    padding: 0px;
+    gap: 30px;
   }
   .feature-banner-img-container {
     display: grid;
