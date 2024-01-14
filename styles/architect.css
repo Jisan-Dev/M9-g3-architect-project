@@ -82,9 +82,16 @@ nav > h3 {
 #banner-content .primary-btn {
   margin-bottom: 50px;
 }
-/* responsive */
+/*! responsive styles */
 @media (max-width: 640px) {
   .container {
     width: 100%;
+  }
+  header nav {
+    flex-direction: column;
+  }
+  header #banner-content > img {
+    height: 300px;
+    object-fit: cover;
   }
 }
