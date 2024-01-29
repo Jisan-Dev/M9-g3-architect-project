@@ -147,12 +147,15 @@ nav > h3 {
   }
 
   header nav > ul {
-    gap: 20px;
+    gap: 25px;
     display: flex;
     list-style: none;
   }
   header nav {
     padding: 50px 0 40px;
+  }
+  nav > ul > li > a {
+    font-size: 1rem;
   }
 
   #banner-title {
