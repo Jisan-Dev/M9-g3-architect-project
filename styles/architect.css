@@ -151,6 +151,9 @@ nav > h3 {
     display: flex;
     list-style: none;
   }
+  header nav {
+    padding: 50px 0 40px;
+  }
 
   header #banner-content > img {
     height: 300px;
