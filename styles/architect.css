@@ -141,6 +141,17 @@ nav > h3 {
   header nav {
     flex-direction: column;
   }
+
+  nav > h3 {
+    font-size: 2rem;
+  }
+
+  header nav > ul {
+    gap: 20px;
+    display: flex;
+    list-style: none;
+  }
+
   header #banner-content > img {
     height: 300px;
     object-fit: cover;
